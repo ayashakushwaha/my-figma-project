@@ -1,0 +1,184 @@
+body {
+  font-family: DM Sans !important;
+  color: white !important;
+  background: var(--background-dark, #2f1893) !important;
+}
+/* content div */
+.big-box {
+  width: 972px !important;
+  height: 700px;
+  text-align: center;
+  margin-top: 65px;
+}
+/* header menu  */
+.header-menu {
+  height: 40px;
+}
+.nav-link {
+  color: white !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 26px !important;
+}
+.menu {
+  width: 503px !important;
+  height: 40px !important;
+  flex-shrink: 0;
+}
+.navbar-brand {
+  color: white !important;
+  display: flex;
+  width: 111px;
+  height: 19px;
+  font-size: 24px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.sign-in-btn {
+  background-color: #e93a7d;
+  border-radius: 100px !important;
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+}
+/* main content */
+#sign-up-form {
+  width: 470px !important;
+  margin-top: 82px !important;
+  height: 600px !important;
+  height: 470px;
+  border-radius: 10px;
+  background: var(--background-light, #fff);
+  margin-bottom: 103px !important;
+}
+/* left column content */
+.text-card {
+  width: 427px !important;
+  margin-top: 114px !important;
+  height: 217px !important;
+  flex-shrink: 0;
+  background-color: none !important;
+  margin-bottom: 454px;
+}
+/* generate heading */
+h3 {
+  color: var(--colors-heading, #1e0e62);
+  text-align: center !important;
+  font-size: 42px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 52px !important; /* 123.81% */
+  letter-spacing: 3px !important;
+  margin-top: 48px !important;
+  margin-bottom: 20px !important;
+}
+/* left comlumn subcontent */
+.first-column-sub-content {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  height: 160px;
+  width: 363px;
+  margin-bottom: 45px;
+  margin-top: 24px;
+}
+/* learn more button of left column */
+.learn-more-btn {
+  width: 157px !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+  background-color: #e93a7d !important;
+  border-radius: 27px !important;
+}
+/* sign up now card */
+h2 {
+  font-size: 58px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 70px !important; /* 120.69% */
+  letter-spacing: 3px;
+  text-align: left;
+  word-wrap: break-word;
+  height: 217px !important;
+  width: 424px !important;
+}
+
+.email-box {
+  border-radius: 30px !important;
+  width: 330px !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+  margin-top: 34px !important;
+}
+.password-box {
+  border-radius: 30px !important;
+  width: 330px !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+  margin-top: 20px !important;
+}
+::placeholder {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4)) !important;
+  opacity: 1; /* Firefox */
+}
+
+.my-checkbox {
+  text-align: left !important;
+  margin-left: -40px !important;
+}
+
+.card-sign-in-btn {
+  width: 330px !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+  border-radius: 100px !important;
+  background: var(--action-secondary, #482be7) !important;
+  margin-top: 27.6px !important;
+  color: white !important;
+}
+.card-twitter-btn {
+  width: 330px !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+  border-radius: 100px !important;
+  background: #1da1f2 !important;
+  color: white !important;
+}
+.card-or {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.9;
+  line-height: 26px;
+}
+.or-box {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.card-line {
+  width: 141.5px;
+  height: 100%;
+  border: 2px #ebeaed solid;
+}
+.card-account {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.card-sign-in-link {
+  color: #25dac5;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+  margin-left: 5px;
+}

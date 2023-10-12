@@ -106,7 +106,7 @@ h2 {
   height: 217px !important;
   width: 424px !important;
 }
-
+/* email box */
 .email-box {
   border-radius: 30px !important;
   width: 330px !important;
@@ -114,6 +114,7 @@ h2 {
   flex-shrink: 0 !important;
   margin-top: 34px !important;
 }
+/* password box */
 .password-box {
   border-radius: 30px !important;
   width: 330px !important;
@@ -123,14 +124,9 @@ h2 {
 }
 ::placeholder {
   color: var(--colors-text, rgba(21, 20, 57, 0.4)) !important;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
-
-.my-checkbox {
-  text-align: left !important;
-  margin-left: -40px !important;
-}
-
+/* sign in button */
 .card-sign-in-btn {
   width: 330px !important;
   height: 50px !important;
@@ -140,6 +136,7 @@ h2 {
   margin-top: 27.6px !important;
   color: white !important;
 }
+/* twitter sign in button */
 .card-twitter-btn {
   width: 330px !important;
   height: 50px !important;
@@ -148,6 +145,7 @@ h2 {
   background: #1da1f2 !important;
   color: white !important;
 }
+/* or div */
 .card-or {
   color: var(--colors-text, rgba(21, 20, 57, 0.4));
   text-align: center;
@@ -166,9 +164,10 @@ h2 {
   height: 100%;
   border: 2px #ebeaed solid;
 }
+/* do you have account  div*/
 .card-account {
   color: var(--colors-text, rgba(21, 20, 57, 0.4));
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -181,4 +180,65 @@ h2 {
   line-height: 28px;
   word-wrap: break-word;
   margin-left: 5px;
+}
+/* checkbox of terms and condition styling */
+.my-checkbox {
+  margin-top: 27.6px !important;
+}
+.custom-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  width: 330px;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.custom-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.custom-check input:checked ~ .checkmark {
+  background-color: #25dac5;
+  border-radius: 6px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.custom-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #1e0e62;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
